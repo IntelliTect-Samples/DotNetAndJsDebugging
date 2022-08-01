@@ -1,0 +1,16 @@
+{
+  "webProject": {
+    "projectFile": "./CoalesceVueVite.Web/CoalesceVueVite.Web.csproj"
+  },
+  "dataProject": {
+    "projectFile": "./CoalesceVueVite.Data/CoalesceVueVite.Data.csproj"
+  },
+
+  "rootGenerator": "Vue",
+
+  "generatorConfig": {
+    "Scripts": {
+      "targetDirectory": "../src"
+    }
+  }
+}

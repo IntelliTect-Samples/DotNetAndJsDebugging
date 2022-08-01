@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <DotnetCliToolTargetFramework>net6.0</DotnetCliToolTargetFramework>
+    <UserSecretsId>eef61f1c-4cdf-4fc3-b508-cb031b3bad69</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoalesceVueVite.Data\CoalesceVueVite.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IntelliTect.Coalesce.Vue" Version="$(CoalesceVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="IntelliTect.Coalesce.Tools" Version="$(CoalesceVersion)" />
+  </ItemGroup>
+</Project>
